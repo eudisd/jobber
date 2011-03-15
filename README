@@ -15,4 +15,4 @@ Directions:
 		1. Type: chrome://extensions and "Developer Mode," then upload unpackaged
 		   extension.
 		 
-		2. Zip the contents of the folder, and rename to .crx extension.
+		2. After clicking "Develpoer Mode" and then click on "Pack Extension"
