@@ -1,0 +1,18 @@
+A craigslist jobs viewer extension for Google Chrome.  It is my first extension.
+
+I made is very simple.  It uses a synchronous XHR to refresh the latest craigslist
+jobs listing for software and engineering jobs.  
+
+I found myself constantly checking these two particular pages quite often, as it's my
+primary way of finding internships.  So far, two of my internships have resulted from
+my browsing in these particular pages.  Hope it is as useful to you, as it has been to 
+me.
+
+
+Directions:
+	I am not hosting this extension anyware.  To install the extension, you have two 
+	options. 
+		1. Type: chrome://extensions and "Developer Mode," then upload unpackaged
+		   extension.
+		 
+		2. Zip the contents of the folder, and rename to .crx extension.
