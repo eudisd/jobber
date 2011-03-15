@@ -1,0 +1,34 @@
+
+
+<style>
+	#text, #text2 {
+		font-size:10px;
+	}
+</style>
+
+
+<!-- Internet Engineering Jobs! -->
+<p id='text'>
+	
+</p>
+
+<p id='text2'>
+	
+</p>
+
+
+<script>
+window.onload =  function(){
+	// Internet Engineers
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'http://newyork.craigslist.org/eng/', false);
+	xhr.send();
+	document.getElementById('text').innerHTML = xhr.responseText;
+	
+	// Software Jobs
+	var xhr2 = new XMLHttpRequest();
+	xhr2.open('GET', 'http://newyork.craigslist.org/sof/', false);
+	xhr2.send();
+	document.getElementById('text2').innerHTML = xhr2.responseText;
+}
+</script>
