@@ -1,4 +1,4 @@
-# A craigslist jobs viewer extension for Google Chrome.  It is my first extension.
+# A craigslist jobs viewer extension for Google Chrome.
 
 I made it very simple.  It uses a synchronous XHR to refresh the latest craigslist
 jobs listing for software and engineering jobs.  
